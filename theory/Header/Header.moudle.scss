@@ -1,0 +1,7 @@
+// 이 방식도 사용 가능!
+.navList {
+  display: flex;
+  &:hover {
+    background-color: blue;
+  }
+}

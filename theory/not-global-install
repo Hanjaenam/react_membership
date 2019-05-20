@@ -1,0 +1,11 @@
+npm install -g create-react-app
+
+create-react-app을 항상 사용할 게 아니고, 사용할 때 업데이트가 되어 있길 원하기 떄문에
+항상 업데이트를 하고 실행을 해야 한다. ( 좋지 않은 방식 )
+또, 계속해서 우리의 폴더에 create-react-app이라는 모듈을 저장해 놓을 거고, 거의 쓰이지 않을 것.
+
+--> 이 문제에 대한 해결책이 'npx'
+npx는 npm처럼 create-react-app같은 모듈을 사용할 수 있게 하는 작은 모듈
+하지만 컴퓨터에 저장해 놓을 필요는 없다.
+
+--> npx create-react-app
