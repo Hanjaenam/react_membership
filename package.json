@@ -22,7 +22,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "yarn run build"
   },
-  "homepage": "https://Hanjaenam.github.io/react_membership",
+  "homepage": "https://quizzical-colden-c88dd4.netlify.com",
   "eslintConfig": {
     "extends": "react-app"
   },
