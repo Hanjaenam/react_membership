@@ -1,0 +1,7 @@
+yarn add gh-pages
+  "scripts": {
+    deploy : gh-pages -d build
+    predeploy : yarn run build
+  }
+  "homepage": "https://<profileName>.github.io/<project name>
+  # 나의 경우는 Hanjaenam / react_membership

@@ -78,6 +78,11 @@ const DetailPresenter = ({ result, loading, error }) =>
     </>
   ) : (
     <Container>
+      <Helmet>
+        <title>
+          {result.original_title ? result.original_title : result.original_name} | Nomflix
+        </title>
+      </Helmet>
       <Backdrop bgImage={`https://image.tmdb.org/t/p/original${result.backdrop_path}`} />
       <Content>
         <Cover bgImage={`https://image.tmdb.org/t/p/original${result.poster_path}`} />

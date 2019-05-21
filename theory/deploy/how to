@@ -1,7 +1,0 @@
-yarn add gh-pages
-  "scripts": {
-    deploy : gh-pages -d build
-    predeploy : yarn run build
-  }
-  "homepage": "https://<something>.github.io/<project name>
-    # 깃헙 프로필 주소가 github.com/something이라면 프로필명을 쓴다
