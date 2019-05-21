@@ -1,0 +1,6 @@
+encodeURI('http://test') --> 'http://test'
+ 최소한의 문자만 encode한다
+
+encodeURIComponent('http://test') --> 'http%3A%2F%2Ftest'
+  알파벳과 숫자 외의 대부분의 문자를 인코딩한다.
+  

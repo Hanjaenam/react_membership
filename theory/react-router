@@ -3,4 +3,14 @@ Browser Router
 
 Link
   <a>태그를 사용하면 안된다! -> 새로고침을 하게 됩니다.
+
+this.props
+  params.id -> ex) /movie/:id 
+  params.test -> ex) /movie/:test
+
+  history
+    push('/')   ; '/'로 이동
+    replace('/'): '/'로 이동하되, push와 차이점은 페이지 방문기록을 남기지 않는다.
+    go(-1)      : 뒤로가기
+    go(1)       : 앞으로 가기
   
